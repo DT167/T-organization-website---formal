@@ -1,0 +1,23 @@
+}
+  "name": "Registration",
+  "type": "object",
+  "properties": {
+    "lessonId": {
+      "type": "string",
+      "description": "מזהה השיעור"
+    },
+    "lessonName": {
+      "type": "string",
+      "description": "שם השיעור"
+    },
+    "userName": {
+      "type": "string",
+      "description": "שם הנרשם"
+    }
+  },
+  "required": [
+    "lessonId",
+    "lessonName",
+    "userName"
+  ]
+}
