@@ -1,0 +1,42 @@
+
+  "name": "Lesson",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "שם השיעור"
+    },
+    "description": {
+      "type": "string",
+      "description": "תיאור קצר של השיעור"
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "תאריך השיעור"
+    },
+    "time": {
+      "type": "string",
+      "description": "שעת השיעור"
+    },
+    "zoomLink": {
+      "type": "string",
+      "description": "קישור לזום"
+    },
+    "maxParticipants": {
+      "type": "number",
+      "description": "מספר נרשמים מקסימלי"
+    },
+    "registrationsCount": {
+      "type": "number",
+      "default": 0,
+      "description": "מספר הנרשמים הנוכחי"
+    }
+  },
+  "required": [
+    "name",
+    "date",
+    "time",
+    "maxParticipants"
+  ]
+}
